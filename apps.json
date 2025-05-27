@@ -1,97 +1,38 @@
 {
-    "name": "ben's repo",
-    "subtitle": "It's mine.",
-    "description": "These are not my apps, only modified versions. All credits go to their original creator.",
-    "iconURL": "https://raw.githubusercontent.com/bens-repo/bens-repo.github.io/refs/heads/main/icon.png",
-    "headerURL": "",
-    "website": "https://bens-repo.github.io",
-    "tintColor": "#58cced",
-    "featuredApps": [
-        "com.molch.blacktv"
-    ],
-    "apps": [
-        {
-            "name": "BlackTV",
-            "bundleIdentifier": "com.molch.blacktv",
-            "developerName": "Multiple",
-            "subtitle": "Steam anything without ads - for free!",
-            "localizedDescription": "This is a modified version of the popular streaming app HD FLix, without ads, with a new name and a new and improved icon.",
-            "iconURL": "https://raw.githubusercontent.com/bens-repo/bens-repo.github.io/refs/heads/main/BlackTV_15.png",
-            "tintColor": "#58cced",
-            "screenshots": [
-                "https://example.com/myapp_portrait_screenshot1.png",
-                "https://example.com/myapp_portrait_screenshot2.png",
-                {
-                    "imageURL": "https://example.com/myapp_landscape_screenshot.png",
-                    "width": 2556,
-                    "height": 1179
-                }
-            ],
-            "versions": [
-                {
-                    "version": "1.1",
-                    "date": "2022-05-01T09:00:00-08:00",
-                    "size": 20000000,
-                    "downloadURL": "https://example.com/myapp_v1.1.ipa",
-                    "localizedDescription": "New features and bug fixes.",
-                    "minOSVersion": "12.0"
-                },
-                {
-                    "version": "1.0",
-                    "date": "2022-03-16T07:00:00-08:00",
-                    "size": 10000000,
-                    "downloadURL": "https://example.com/myapp_v1.0.ipa",
-                    "localizedDescription": "Initial release."
-                }
-            ],
-            "appPermissions" : {
-         "entitlements" : [
-          "com.apple.security.application-groups",
-          "com.apple.developer.associated-domains",
-          "com.apple.developer.driverkit.allow-third-party-userclients",
-          "com.apple.developer.healthkit.background-delivery",
-          "com.apple.developer.ubiquity-container-identifiers",
-          "com.apple.developer.user-fonts",
-          "com.apple.developer.usernotifications.communication",
-          "com.apple.developer.usernotifications.time-sensitive",
-          "com.apple.developer.game-center",
-          "com.apple.developer.healthkit.recalibrate-estimates",
-          "com.apple.developer.healthkit",
-          "com.apple.developer.homekit",
-          "com.apple.developer.networking.HotspotConfiguration",
-          "com.apple.developer.icloud-container-development-container-identifiers",
-          "com.apple.developer.icloud-container-identifiers",
-          "com.apple.developer.ubiquity-kvstore-identifier",
-          "com.apple.developer.icloud-services",
-          "com.apple.developer.networking.networkextension",
-          "com.apple.developer.pass-type-identifiers",
-          "com.apple.developer.networking.vpn.api",
-          "aps-environment",
-          "com.apple.developer.healthkit.access",
-          "com.apple.developer.applesignin",
-          "com.apple.developer.siri",
-          "com.apple.developer.weatherkit",
-          "keychain-access-groups"
-        ],
-        "privacy" : {
-          "NSCameraUsageDescription" : "App uses the camera for capturing photos or videos.",
-          "NSLocationWhenInUseUsageDescription" : "App uses location when on app.",
-          "NSMicrophoneUsageDescription" : "App uses the microphone to record audio.",
-          "NSPhotoLibraryUsageDescription" : "App accesses the user's photo library.",
-          "NSUserTrackingUsageDescription" : "App tracks user activity for advertising purposes."
-        }
-            }
-        }  
-    ],
-    "news": [
-        {
-            "title": "Introducing BlackTV",
-            "identifier": "introducing_BlackTV",
-            "caption": "BlackTV is the ultimate replacement for Netflix, Prime Video, Appple TV+ and many more, for free and without ads!",
-            "date": "2025-05-17",
-            "tintColor": "#58cced",
-            "notify": false,
-            "appID": "com.molch.blacktv"
-        } 
-    ]
+  "apps": [
+    {
+      "beta": false,
+      "bundleIdentifier": "com.blacktv.molch",
+      "developerName": "Various",
+      "downloadURL": "https://github.com/bens-repo/bens-repo.github.io/raw/refs/heads/main/BlackTV-2.0.ipa",
+      "iconURL": "https://raw.githubusercontent.com/bens-repo/bens-repo.github.io/refs/heads/main/BlackTV_15.png",
+      "localizedDescription": "This is a modified version of the popular streaming app HD FLix, without ads, with a new name and a new and improved icon.",
+      "name": "BlackTV",
+      "screenshotURLs": [
+        ""
+      ],
+      "size": 14685918,
+      "subtitle": "Steam anything without ads - for free!",
+      "tintColor": "58cced",
+      "version": "2.0",
+      "versionDate": "2025-05-15T14:00:00-07:00",
+      "versionDescription": "Fixed for new update."
+    }
+  ],
+  "identifier": "com.example.source",
+  "name": "ben's repo",
+  "news": [
+    {
+      "appID": "com.blacktv.molch",
+      "caption": "BlackTV is the ultimate replacement for Netflix, Prime Video, Appple TV+ and many more, for free and without ads!",
+      "date": "2025-05-26",
+      "identifier": "introducing_BlackTV",
+      "imageURL": "",
+      "notify": false,
+      "tintColor": "58cced",
+      "title": "Introducing BlackTV",
+      "url": ""
+    }
+  ],
+  "userInfo": {}
 }
